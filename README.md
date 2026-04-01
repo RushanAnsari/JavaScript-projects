@@ -15,7 +15,7 @@ A dynamic image slideshow system where users can:
 - Get toast notifications
 
 🔗 Live Demo:
-
+https://rushanansari.github.io/JavaScript-projects/
 ---
 
 ## 🛠 Tech Used
