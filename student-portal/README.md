@@ -63,7 +63,7 @@ register.html
 
 ## 📸 Screenshots
 
-> Add your screenshots here (optional)
+
 
 ---
 
