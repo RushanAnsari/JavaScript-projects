@@ -53,3 +53,9 @@ function filterTasks(type) {
     renderTasks(type);
 }
 renderTasks();
+
+document.getElementById("taskInput").addEventListener("keypress", function(e) {
+    if (e.key === "Enter"){
+        addTask();
+    }
+});
