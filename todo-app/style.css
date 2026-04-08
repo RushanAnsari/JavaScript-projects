@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI' ,sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(135deg, #0f172a, #1e293b);
     display: flex;
     justify-content: center;
@@ -8,69 +8,106 @@ body {
     height: 100vh;
 }
 
-/* Glass effect */
+/* Glass Card */
 .container {
-    width: 380px;
+    width: 400px;
     padding: 25px;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
     color: white;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
+/* Input Section */
 .input-section {
     display: flex;
     gap: 10px;
+    margin-bottom: 15px;
 }
 
 input {
     flex: 1;
     padding: 12px;
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
     outline: none;
+    font-size: 14px;
 }
 
+/* Buttons */
 button {
-    padding: 10px 14px;
-    border-radius: 10px;
+    padding: 10px 16px;
+    border-radius: 12px;
     border: none;
     cursor: pointer;
     background: #38bdf8;
     color: black;
+    font-weight: 600;
     transition: 0.3s;
 }
-button:hover{
+
+button:hover {
     background: #0ea5e9;
 }
 
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
 
+.filters button {
+    flex: 1;
+    margin: 0 3px;
+}
 
+/* Task List */
 ul {
     list-style: none;
     padding: 0;
 }
 
-/* Task List */
 li {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255,255,255,0.1);
     margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 12px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
 }
 
-li:hover{
+li:hover {
     transform: scale(1.02);
 }
-.completed{
+
+li span {
+    cursor: pointer;
+}
+
+/* Delete Button */
+li button {
+    background: #ef4444;
+    color: white;
+    padding: 6px 10px;
+}
+
+li button:hover {
+    background: #dc2626;
+}
+
+/* Completed */
+.completed {
     text-decoration: line-through;
     opacity: 0.6;
 }
