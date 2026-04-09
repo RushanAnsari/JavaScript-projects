@@ -40,16 +40,32 @@ A personal portfolio website to showcase my skills and projects.
 
 ### 📅 3. Image Scheduler (Existing Project)
 
-A scheduling-based project (update details if needed).
-
+A dynamic image slideshow system where users can:
+- Set custom position (order)
+- Define display time for each image
+- View images sequentially
+- See progress bar animation
+- Get toast notifications
+- 
+🔗 Live Demo:https://rushanansari.github.io/JavaScript-projects/
+💻 Code: https://github.com/RushanAnsari/JavaScript-projects/tree/main/image-scheduler
 ---
 
 ## 🛠 Tech Stack
 
 - HTML5  
 - CSS3  
-- JavaScript  
+- JavaScript
+- jQuery
 - Git & GitHub  
+
+---
+## 🎯 Features
+- Dynamic sorting logic
+- Time-based rendering
+- Active image highlight
+- Progress bar animation
+- Toast notifications
 
 ---
 
